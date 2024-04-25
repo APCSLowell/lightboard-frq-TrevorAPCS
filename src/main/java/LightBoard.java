@@ -13,7 +13,7 @@ public class LightBoard
     /* to be implemented in part (a) */
     lights = new boolean[numRows][numCols];
     for(int r = 0; r < lights.length; r++)
-      for(int c = 0; c < lights[i].length; c++)
+      for(int c = 0; c < lights[r].length; c++)
         if((int)(Math.random() * 5) < 2)
           lights[r][c] = true;
   }
